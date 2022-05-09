@@ -1,0 +1,23 @@
+div.lsafw_alert {
+    background-color: #FAFAFA;
+}
+
+div.lsafw-alert-title {
+    padding: 1%;
+    background-color: limegreen;
+    color: white;
+    font-weight: 600;
+}
+
+div.lsafw-alert-description {
+    padding: 1%;
+    font-weight: 400;
+}
+
+.lsafw-row {
+    display: flex;
+}
+
+.lsafw-column {
+    flex: 50%;
+}
