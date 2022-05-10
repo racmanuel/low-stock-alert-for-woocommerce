@@ -189,11 +189,8 @@ function cmb_after_row_cb()
             <div class="lsafw-row">
                 <div class="lsafw-column">
                     <h3><?php _e('¿Te sirvio el plugin?',''); ?></h3>
-                    <p><?php _e('Si te gusta mi plugin no dudes en dar dejar tus comentarios en la pagina principal del plugin.'); ?></p>
-                    <a><?php _e('¡Regalame un Cafe!',''); ?></a>
-                </div>
-                <div class="lsafw-column">
-                    <!--<img src="https://avatars.githubusercontent.com/u/25874893?v=4" alt="" width="80px">-->
+                    <p><?php _e('Si te gusta mi plugin no dudes en dar dejar tus comentarios en la pagina principal del plugin, no olvides que el plugin es gratuito.'); ?></p>
+                    <a href="#"><?php _e('¡Regalame un Cafe!☕',''); ?></a>
                 </div>
             </div>
         </div>

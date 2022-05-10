@@ -71,9 +71,9 @@ function lsafw_alert_in_single_product()
             <div id="lsafw_alert">
                 <div class="lsafw_alert_single_product">
                     <div class="lsafw_title">
-                        <h4 class="animate__animated <?php echo $lsafw_options['lsafw_animation_title']; ?> animate__infinite">
+                        <p class="animate__animated <?php echo $lsafw_options['lsafw_animation_title']; ?> animate__infinite">
                             <?php echo $lsafw_options['lsafw_title']; ?> <span
-                                class="lsafw_call_to_action"><?php echo $lsafw_options['lsafw_call_to_action']; ?></span></h4>
+                                class="lsafw_call_to_action" style="color:<?php echo $lsafw_options['lsafw_color']; ?>"><?php echo $lsafw_options['lsafw_call_to_action']; ?></span></p>
                     </div>
                     <div class="lsafw_description animate__animated <?php echo $lsafw_options['lsafw_animation_description']; ?> animate__infinite"">
                             <?php if ($number_rand >= 2): ?>
@@ -122,11 +122,11 @@ function bbloomer_show_stock_shop()
                  * HTML Message to Show in Product Loop
                  */
                 ?>
-                    <div class=" lsafw_title">
-            <span class="lsafw_call_to_action"><?php echo $lsafw_options['lsafw_call_to_action']; ?> quedan
-                <?php echo wc_get_stock_html($product); ?></span>
-        </div>
-        <?php
+                <div class=" lsafw_title">
+                    <span class="lsafw_call_to_action" style="color:<?php echo $lsafw_options['lsafw_color']; ?>"><?php echo $lsafw_options['lsafw_call_to_action']; ?> quedan
+                    <?php echo wc_get_stock_html($product); ?></span>
+                </div>
+                <?php
             }
         }
     }
